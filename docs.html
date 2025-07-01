@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentation – Goldbach Factorization</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    h2 {
+      color: #555;
+      margin-top: 1.5em;
+    }
+    p {
+      line-height: 1.6;
+    }
+    code {
+      background-color: #eee;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Documentation – De Goldbach à la Factorisation</h1>
+
+  <p>
+    Ce site vous permet de décomposer tout nombre pair <strong>E</strong> en une somme de deux nombres premiers <strong>p + q</strong> (selon la conjecture de Goldbach), puis de retrouver un facteur non trivial d’un nombre impair <strong>O</strong> tel que <strong>E = 2ⁿ × O</strong>.
+  </p>
+
+  <h2>Mode d'emploi</h2>
+  <p>
+    Entrez un nombre pair <strong>E</strong> (jusqu’à 10<sup>18</sup>) dans le champ prévu, puis cliquez sur <em>Calculate</em>. L’algorithme trouve un couple <strong>(p, q)</strong> tel que <strong>p + q = E</strong>, et utilise cette information pour retrouver un facteur de <strong>O = E / 2ⁿ</strong>.
+  </p>
+
+  <h2>Principe</h2>
+  <p>
+    L'idée centrale repose sur un lien entre les décompositions en nombres premiers (conjecture de Goldbach) et la factorisation de certains nombres impairs. On part de la relation <code>E = 2ⁿ × O</code>, et on remonte aux facteurs de <strong>O</strong> à partir de <strong>p</strong> et <strong>q</strong>.
+  </p>
+
+  <h2>À propos</h2>
+  <p>
+    Méthode développée par <strong>Bahbouhi Bouchaib</strong>, chercheur indépendant en mathématiques, dans le cadre d’un programme de recherche sur la conjecture de Goldbach et la factorisation avancée.
+  </p>
+
+  <p><a href="index.html">← Retour à l'outil principal</a></p>
+</body>
+</html>
